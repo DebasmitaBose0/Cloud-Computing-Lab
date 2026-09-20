@@ -74,4 +74,61 @@ sudo apt update
 sudo apt install -y build-essential linux-headers-$(uname -r)
 ```
 
-Done by _Debasmita Bose_
+## Experiment 2: VM Cloning & Network Connectivity
+
+## 📌 Overview
+
+This experiment demonstrates the **cloning of an Ubuntu Virtual Machine** using Oracle VirtualBox and establishing network connectivity between the original and cloned Virtual Machines.
+
+Both VMs are connected to a customized **NAT Network**, allowing them to communicate with each other through their assigned IP addresses.
+
+---
+
+## 🎯 Objective
+
+- Clone an existing Ubuntu Virtual Machine.
+- Create and configure a customized NAT Network.
+- Connect both VMs to the same NAT Network.
+- Verify the network interface and IP configuration.
+- Verify communication between the VMs using the `ping` command.
+- Verify successful two-way connectivity with packet transmission.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Oracle VirtualBox**
+- **Ubuntu Linux**
+- **NAT Network**
+- **Linux Networking Commands**
+- `ip a`
+- `ping`
+
+---
+
+## 🌐 Network Configuration
+
+A customized NAT Network was created in Oracle VirtualBox with the following configuration:
+
+| Parameter | Configuration |
+|---|---|
+| Network Type | NAT Network |
+| Network Name | `MyNatNetwork` |
+| IPv4 Network | `10.0.2.0/24` |
+| DHCP | Enabled |
+| Network Interface | `enp0s3` |
+
+Both the original and cloned Ubuntu VMs were connected to the same `MyNatNetwork`.
+
+---
+
+## 🖥️ VM Configuration
+
+### Original VM
+
+The original Ubuntu VM was configured with:
+
+```text
+Attached to: NAT Network
+Network Name: MyNatNetwork
+Virtual Cable: Connected
