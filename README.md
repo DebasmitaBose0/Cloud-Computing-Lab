@@ -132,3 +132,38 @@ The original Ubuntu VM was configured with:
 Attached to: NAT Network
 Network Name: MyNatNetwork
 Virtual Cable: Connected
+```
+
+## Experiment 3: Creation of a Simple Network Topology Using Open-Source Network Virtualization Tools
+
+## 📌 Overview
+
+This experiment demonstrates the creation, configuration, and testing of different network topologies using **Mininet**, an open-source network virtualization tool running on an Ubuntu Linux Virtual Machine.
+
+The experiment focuses on creating **Single-Switch, Tree, and Linear topologies** and verifying communication between virtual network nodes using basic Linux networking commands. :contentReference[oaicite:0]{index=0}
+
+---
+
+## 🎯 Objective
+
+To create and configure simple network topologies using **Mininet** and verify communication between virtual network nodes using basic Linux networking commands.
+
+---
+
+## 🛠️ Tools Used
+
+- Ubuntu Linux
+- Oracle VirtualBox
+- Mininet
+- Open vSwitch
+
+---
+
+## ⚙️ Mininet Installation and Setup
+
+Mininet was installed along with its required dependencies using the Ubuntu package manager. The installed version was verified and the Mininet CLI was initialized successfully. :contentReference[oaicite:1]{index=1}
+
+### Installation
+
+```bash
+sudo apt install mininet -y
