@@ -870,10 +870,552 @@ Screenshots demonstrating the practical implementation and command outputs are i
 This experiment provides practical exposure to cloud computing concepts and AWS services. It demonstrates how virtual machines, object storage, identity management, networking, monitoring and command-line tools can be used to understand and manage cloud infrastructure.
 
 ---
+# ☁️ Cloud Computing Lab 7
+## Familiarization and Usage of Collaborative Applications (SaaS)
 
-**Course:** Cloud Computing Laboratory  
-**Experiment:** 06  
-**Topic:** AWS Cloud Services and Open-Source Cloud Tools
+![Cloud Computing](https://img.shields.io/badge/Domain-Cloud%20Computing-blue)
+![SaaS](https://img.shields.io/badge/Cloud%20Model-SaaS-green)
+![Google Workspace](https://img.shields.io/badge/Platform-Google%20Workspace-4285F4)
+
+## 📌 Aim
+
+To understand the Software as a Service (SaaS) cloud delivery model and demonstrate web-based applications for document creation, spreadsheet management, presentation creation, online meetings and real-time collaboration.
+
+## 🛠️ Applications Used
+
+- Google Docs
+- Google Sheets
+- Google Slides
+- Google Meet
+- Google Drive
+- Web Browser
+- Internet Connection
+
+## 📚 Introduction
+
+**Software as a Service (SaaS)** is a cloud-based software delivery model in which applications are hosted by a service provider and accessed through the internet.
+
+Users can access software through a web browser without installing or managing the underlying infrastructure locally.
+
+## 🧪 Practical Implementation
+
+### 1. Google Docs – Collaborative Document Editing
+
+**Objective:** Create, edit and share a document using Google Docs.
+
+**Activities Performed:**
+
+1. Open Google Docs.
+2. Create a new document titled `Cloud Computing Lab 7 – Collaborative Document`.
+3. Add an introduction to SaaS and its features.
+4. Create and format a table.
+5. Share the document with another Google account.
+6. Assign Editor permissions.
+7. Perform collaborative editing.
+8. Add comments and explore Version History.
+
+**Concepts Observed:**
+- Online document editing
+- Real-time collaboration
+- Sharing permissions
+- Comments and version history
+- Automatic cloud saving
+
+### 2. Google Sheets – Cloud-Based Spreadsheet Management
+
+**Objective:** Create and manage a spreadsheet using Google Sheets.
+
+**Activities Performed:**
+
+1. Create a spreadsheet titled `Cloud Computing Lab 7 – Collaborative Spreadsheet`.
+2. Enter student details and marks.
+3. Organise data using rows and columns.
+4. Apply spreadsheet formulas.
+5. Share the spreadsheet with a collaborator.
+6. Observe collaborative editing and comments.
+
+**Sample Dataset:**
+
+| Student ID | Name | Subject | Marks |
+|---|---|---|---:|
+| S101 | Student A | Cloud Computing | 82 |
+| S102 | Student B | Cloud Computing | 75 |
+| S103 | Student C | Cloud Computing | 91 |
+| S104 | Student D | Cloud Computing | 68 |
+| S105 | Student E | Cloud Computing | 87 |
+
+**Formulas Used:**
+
+```excel
+=SUM(D3:D7)
+=AVERAGE(D3:D7)
+=MAX(D3:D7)
+=MIN(D3:D7)
+```
+
+**Calculated Results:**
+
+| Operation | Result |
+|---|---:|
+| Total Marks | 403 |
+| Average Marks | 80.6 |
+| Highest Marks | 91 |
+| Lowest Marks | 68 |
+
+### 3. Google Slides – Cloud-Based Presentation
+
+**Objective:** Create, edit and share a presentation using Google Slides.
+
+**Activities Performed:**
+
+1. Create a presentation titled `Software as a Service (SaaS)`.
+2. Create four slides.
+3. Add an introduction to SaaS.
+4. Include examples of SaaS applications.
+5. Describe the advantages of SaaS.
+6. Format slide content using the toolbar.
+7. Share the presentation with another Google account.
+8. Assign Editor permissions.
+9. Observe collaborative slide editing and comments.
+
+**Topics Covered in the Presentation:**
+- Introduction to SaaS
+- What is SaaS?
+- Examples: Google Docs, Google Sheets, Microsoft 365, Microsoft Teams and Salesforce
+- Advantages of SaaS
+
+### 4. Google Meet – Online Meeting and Communication
+
+**Objective:** Explore online meeting creation and communication using Google Meet.
+
+**Activities Performed:**
+
+1. Open Google Meet through a web browser.
+2. Select the New Meeting option.
+3. Generate a meeting link.
+4. View the meeting joining information.
+5. Copy and explore the meeting link.
+6. Explore the meeting interface and available controls.
+7. Observe the meeting dashboard.
+
+**Concepts Observed:**
+- Online video conferencing
+- Meeting link generation
+- Remote communication
+- Internet-based collaboration
+
+---
+
+## ⭐ Key Features of SaaS Observed
+
+- **Internet-Based Accessibility:** Applications can be accessed through the internet.
+- **Real-Time Collaboration:** Multiple users can work on shared files.
+- **Automatic Updates:** Software updates are managed by the service provider.
+- **Cloud Storage:** Data is stored and accessed through cloud infrastructure.
+- **Reduced Maintenance:** Users do not manage the underlying servers or infrastructure.
+- **Scalability:** Access and usage can be expanded according to requirements.
+
+## 🎯 Learning Outcomes
+
+After completing this experiment, students will be able to:
+
+1. Understand the Software as a Service (SaaS) model.
+2. Create and edit cloud-based documents using Google Docs.
+3. Perform calculations and manage data using Google Sheets.
+4. Design and share presentations using Google Slides.
+5. Generate online meeting links using Google Meet.
+6. Understand real-time collaboration and cloud-based sharing.
+7. Explore document comments, sharing permissions and version history.
+
+## 📸 Practical Screenshots
+
+Screenshots documenting the practical implementation of Google Docs, Google Sheets, Google Slides and Google Meet are included in the experiment report.
+
+## ✅ Result
+
+The SaaS model was successfully studied through practical demonstrations of Google Docs, Google Sheets, Google Slides and Google Meet. Document editing, spreadsheet calculations, presentation creation, online meeting generation and collaborative sharing features were explored.
+
+## 📝 Conclusion
+
+This experiment demonstrated how Software as a Service applications provide ready-to-use software over the internet. Google Workspace applications simplify document management, data processing, presentation creation and online communication while enabling real-time collaboration without requiring users to manage the underlying infrastructure.
+
+---
+# ☁️ Cloud Computing Lab 8
+## Implementing Applications using Google App Engine (PaaS)
+
+![Cloud Computing](https://img.shields.io/badge/Domain-Cloud%20Computing-blue)
+![PaaS](https://img.shields.io/badge/Cloud%20Model-PaaS-green)
+![Python](https://img.shields.io/badge/Language-Python-3776AB)
+![Flask](https://img.shields.io/badge/Framework-Flask-black)
+![Google Cloud](https://img.shields.io/badge/Platform-Google%20Cloud-4285F4)
+
+## 📌 Aim
+
+To become familiar with Platform as a Service (PaaS) and implement, deploy and manage a simple web application using Google App Engine.
+
+## 🛠️ Technologies & Tools Used
+
+- Google Cloud Platform (GCP)
+- Google App Engine
+- Python
+- Flask Framework
+- Google Cloud CLI (`gcloud`)
+- Ubuntu Linux
+- Terminal
+- Web Browser
+
+## 📚 Introduction
+
+**Platform as a Service (PaaS)** is a cloud computing service model that provides a platform for developing, running and managing applications without requiring users to manage the underlying infrastructure.
+
+Google App Engine is a fully managed PaaS platform provided by Google Cloud. It allows developers to deploy applications while Google manages the infrastructure, scaling and application environment.
+
+## 🧪 Experiment Overview
+
+This experiment is divided into four practical tasks.
+
+| Task | Practical Area | Description |
+|---|---|---|
+| 1 | PaaS and App Engine Setup | Create a Google Cloud project and configure App Engine. |
+| 2 | Web Application Development | Develop a simple Flask application locally. |
+| 3 | Google Cloud CLI Setup | Install and configure the Google Cloud CLI. |
+| 4 | Deployment and Management | Deploy the application and explore versions, logs, instances and monitoring. |
+
+---
+
+## ☁️ Task 1: PaaS and Google App Engine Setup
+
+**Objective:** Understand PaaS and configure a Google Cloud project for App Engine.
+
+### Steps Performed
+
+1. Open Google Cloud Console.
+2. Sign in using a Google account.
+3. Create a new project named `Cloud-Lab8`.
+4. Open the App Engine Dashboard.
+5. Explore the App Engine interface and available services.
+6. Enable the App Engine Admin API.
+
+### Project Details
+
+| Property | Value |
+|---|---|
+| Project Name | Cloud-Lab8 |
+| Project ID | `cloud-lab8-514907` |
+| Cloud Platform | Google Cloud Platform |
+| PaaS Service | Google App Engine |
+
+### Enable App Engine Admin API
+
+```bash
+gcloud services enable appengine.googleapis.com
+```
+
+Verify enabled services:
+
+```bash
+gcloud services list --enabled
+```
+
+---
+
+## 🐍 Task 2: Develop a Simple Web Application Using Flask
+
+**Objective:** Develop and run a simple Python web application locally.
+
+### Step 1: Create the Project Directory
+
+```bash
+mkdir cloud-lab8
+cd cloud-lab8
+```
+
+### Step 2: Create `main.py`
+
+```python
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return """
+    <h1>Cloud Computing Lab 8</h1>
+    <p>Application successfully implemented using Google App Engine.</p>
+    <p>This application demonstrates Platform as a Service (PaaS).</p>
+    """
+
+if __name__ == "__main__":
+    app.run(host="127.0.0.1", port=8080)
+```
+
+### Step 3: Create `requirements.txt`
+
+```text
+Flask
+```
+
+### Step 4: Create and Activate a Virtual Environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Step 5: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 6: Run the Flask Application
+
+```bash
+python main.py
+```
+
+### Step 7: Access the Application
+
+Open the following URL in a web browser:
+
+```text
+http://127.0.0.1:8080
+```
+
+**Expected Output:**
+
+The browser displays:
+
+- Cloud Computing Lab 8
+- Application successfully implemented using Google App Engine.
+- This application demonstrates Platform as a Service (PaaS).
+
+---
+
+## ⚙️ Task 3: Google Cloud CLI Installation and Configuration
+
+**Objective:** Install and configure Google Cloud CLI to interact with Google Cloud services through the terminal.
+
+### Step 1: Install Google Cloud CLI
+
+Update the Ubuntu package lists:
+
+```bash
+sudo apt-get update
+```
+
+Install the required utilities:
+
+```bash
+sudo apt-get install ca-certificates gnupg curl -y
+```
+
+Add the Google Cloud package signing key:
+
+```bash
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+```
+
+Add the Google Cloud CLI repository:
+
+```bash
+echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+```
+
+Update the package list and install Google Cloud CLI:
+
+```bash
+sudo apt-get update
+sudo apt-get install google-cloud-cli -y
+```
+
+### Step 2: Verify Installation
+
+```bash
+gcloud --version
+```
+
+### Step 3: Authenticate Google Cloud CLI
+
+```bash
+gcloud auth login
+```
+
+Complete the authentication process through the browser.
+
+### Step 4: List Google Cloud Projects
+
+```bash
+gcloud projects list
+```
+
+### Step 5: Select the Project
+
+```bash
+gcloud config set project cloud-lab8-514907
+```
+
+Verify the selected project:
+
+```bash
+gcloud config get-value project
+```
+
+### Step 6: Create `app.yaml`
+
+Create the App Engine configuration file:
+
+```bash
+nano app.yaml
+```
+
+Add the following configuration:
+
+```yaml
+runtime: python312
+```
+
+Save and verify:
+
+```bash
+cat app.yaml
+```
+
+---
+
+## 🚀 Task 4: Application Deployment and Management
+
+**Objective:** Deploy the Flask application using Google App Engine and explore application management features.
+
+### Step 1: Create the App Engine Application
+
+Open Google Cloud Console and navigate to the App Engine Dashboard.
+
+Select the appropriate App Engine region according to the lab requirements.
+
+**Note:** The region selected during App Engine application creation is generally permanent and cannot be changed later.
+
+### Step 2: Deploy the Application
+
+After App Engine application creation and billing prerequisites are satisfied, execute:
+
+```bash
+gcloud app deploy
+```
+
+Confirm the deployment when prompted.
+
+### Step 3: Open the Deployed Application
+
+```bash
+gcloud app browse
+```
+
+The application should open through its Google App Engine URL.
+
+### Step 4: List Application Versions
+
+```bash
+gcloud app versions list
+```
+
+This command displays the deployed application versions.
+
+### Step 5: View Application Logs
+
+```bash
+gcloud app logs tail
+```
+
+This command allows users to observe application logs.
+
+### Step 6: Update the Application
+
+Modify the message in `main.py`, for example:
+
+```python
+<p>Welcome to Cloud Computing Lab 8 - Version 2!</p>
+```
+
+Deploy the updated application again:
+
+```bash
+gcloud app deploy
+```
+
+### Step 7: Explore App Engine Management Features
+
+Explore the following sections in Google Cloud Console:
+
+- Services
+- Versions
+- Instances
+- Logs
+- Monitoring
+- Traffic Management
+
+---
+
+## 📊 Important Concepts
+
+| Concept | Description |
+|---|---|
+| PaaS | Provides a managed platform for application development and deployment. |
+| Google App Engine | Managed application hosting service in Google Cloud. |
+| Flask | Lightweight Python web framework. |
+| `gcloud` CLI | Command-line tool for managing Google Cloud resources. |
+| `app.yaml` | Configuration file specifying App Engine runtime settings. |
+| Application Versions | Different deployed versions of an application. |
+| Application Logs | Records of application activity and events. |
+
+## 🔒 Billing and Cost Considerations
+
+- Google Cloud billing may be required to create and deploy an App Engine application.
+- Check the applicable pricing and free usage limits before enabling billing.
+- Do not add a payment method without authorisation.
+- Monitor cloud resource usage and billing information.
+- Use an authorised Google Cloud account.
+
+**Practical Note:** The local Flask application can be developed and tested without deploying it to Google Cloud. Actual App Engine deployment requires the necessary project configuration and billing eligibility.
+
+## 🎯 Learning Outcomes
+
+After completing this experiment, students will be able to:
+
+1. Understand the Platform as a Service (PaaS) model.
+2. Familiarise themselves with Google App Engine.
+3. Develop a basic web application using Python and Flask.
+4. Configure a Python virtual environment and install dependencies.
+5. Install and authenticate Google Cloud CLI.
+6. Configure a Google Cloud project and App Engine runtime.
+7. Understand the application deployment process.
+8. Explore application versions, logs, instances and monitoring.
+
+## 📸 Practical Screenshots
+
+Screenshots documenting the experiment include:
+
+- Google Cloud project creation
+- App Engine Dashboard
+- Google Cloud CLI installation
+- Project authentication and configuration
+- Flask application development
+- Localhost application execution
+- `app.yaml` configuration
+- App Engine API activation
+- Deployment and management activities, where completed
+
+## ✅ Result
+
+A simple Flask web application was developed and successfully executed in the local Ubuntu environment. Google Cloud project configuration, Google Cloud CLI authentication, App Engine Admin API activation and application configuration were also performed.
+
+Actual App Engine deployment remains subject to billing activation and successful application creation.
+
+## 📝 Conclusion
+
+This experiment provided practical exposure to the Platform as a Service (PaaS) model using Google App Engine. A basic web application was developed using Flask and tested locally. Google Cloud CLI was installed and configured to interact with Google Cloud resources. The experiment helped demonstrate how managed cloud platforms simplify application development, configuration, deployment and management.
+
+---
 
 ## Author
 
